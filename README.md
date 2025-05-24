@@ -4,7 +4,8 @@ Timer PRO é um aplicativo web moderno e responsivo que combina as funções de 
 
 👉 Deploy: ([Timer Pro Netifly](https://celadon-conkies-ef4b37.netlify.app/))
 
-🛠️ Tecnologias
+🛠️ Tecnologias:
+
 HTML5
 
 CSS3 (com animações e Glassmorphism)
@@ -32,7 +33,7 @@ Google Fonts (Poppins)
 ✅ Easter Egg no console 👀
 
  Autor
-Feito com 💙 e CSS brilhante por Thales
+Feito com 💙 por Thales
 
 📱 Instagram: @thales_timbo
 
