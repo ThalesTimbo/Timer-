@@ -2,7 +2,7 @@
 
 Timer PRO é um aplicativo web moderno e responsivo que combina as funções de cronômetro e temporizador em uma interface linda e intuitiva. Com animações suaves, atalhos de teclado, alertas personalizados e feedback tátil, é a ferramenta perfeita para te ajudar a gerenciar o tempo com estilo.
 
-👉 Deploy: ([adicione o link aqui quando fizer o deploy no Netlify ou Vercel](https://celadon-conkies-ef4b37.netlify.app/))
+👉 Deploy: ([Timer Pro Netifly](https://celadon-conkies-ef4b37.netlify.app/))
 
 🛠️ Tecnologias
 HTML5
