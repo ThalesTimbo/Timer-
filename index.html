@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro & Temporizador</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⏰</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Partículas flutuantes -->
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <div class="main-container">
+        <h1 class="hero-title">⚡ Timer PRO ⚡</h1>
+        
+        <div class="container">
+            <!-- Card do Cronômetro -->
+            <div class="card">
+                <div class="status-indicator" id="stopwatchStatus"></div>
+                <h2>⏱️ Cronômetro</h2>
+                <div id="stopwatchDisplay" class="time-display">00:00:00</div>
+                <div class="controls">
+                    <button id="startStopwatch" class="btn btn-start">Iniciar</button>
+                    <button id="pauseStopwatch" class="btn btn-pause">Pausar</button>
+                    <button id="resetStopwatch" class="btn btn-reset">Resetar</button>
+                </div>
+            </div>
+
+            <!-- Card do Temporizador -->
+            <div class="card">
+                <div class="status-indicator" id="timerStatus"></div>
+                <h2>⏰ Temporizador</h2>
+                <div class="timer-inputs">
+                    <div class="input-group">
+                        <label>Minutos</label>
+                        <input type="number" id="timerMinutes" class="timer-input" min="0" max="59" value="5" placeholder="05">
+                    </div>
+                    <div class="input-group">
+                        <label>Segundos</label>
+                        <input type="number" id="timerSeconds" class="timer-input" min="0" max="59" value="0" placeholder="00">
+                    </div>
+                </div>
+                <div id="timerDisplay" class="time-display">05:00</div>
+                <div class="controls">
+                    <button id="startTimer" class="btn btn-start">Iniciar</button>
+                    <button id="pauseTimer" class="btn btn-pause">Pausar</button>
+                    <button id="resetTimer" class="btn btn-reset">Resetar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
